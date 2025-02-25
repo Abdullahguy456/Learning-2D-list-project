@@ -1,0 +1,8 @@
+scores=[["Edward",60,"Blue"],
+        ["Mathew",51,"Red"],
+        ["Abdullah","90","Grean"]]
+name=input("Who are you searchin for:")
+for record in scores:
+    for data in record:
+        if data==name:
+            print(record)
